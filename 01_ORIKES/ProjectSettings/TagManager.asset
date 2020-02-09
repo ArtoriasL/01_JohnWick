@@ -61,8 +61,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Postprocessing
   m_SortingLayers:
   - name: Default
     uniqueID: 0

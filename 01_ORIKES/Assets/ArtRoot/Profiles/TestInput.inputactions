@@ -1,0 +1,33 @@
+{
+    "name": "TestInpu",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "7a8ce7e8-c175-4781-8705-a50a1ade09da",
+            "actions": [
+                {
+                    "name": "Test",
+                    "type": "Button",
+                    "id": "12df9745-98e9-42eb-aa70-0d13efb01e48",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b572546a-2757-471a-b1b1-4ab64ccf7581",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
