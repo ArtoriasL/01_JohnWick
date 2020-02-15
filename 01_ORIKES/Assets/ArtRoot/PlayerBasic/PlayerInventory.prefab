@@ -4403,7 +4403,7 @@ GameObject:
   - component: {fileID: 114000012938042848}
   - component: {fileID: 114000013090843442}
   m_Layer: 5
-  m_Name: Inventory_ShooterMelee
+  m_Name: PlayerInventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4662,7 +4662,7 @@ MonoBehaviour:
   openCurrentSlot:
     useInput: 1
     isAxisInUse: 0
-    keyboard: O
+    keyboard: A
     keyboardAxis: 0
     joystick: A
     joystickAxis: 0
@@ -4676,7 +4676,7 @@ MonoBehaviour:
   removeEquipment:
     useInput: 1
     isAxisInUse: 0
-    keyboard: Backspace
+    keyboard: X
     keyboardAxis: 0
     joystick: X
     joystickAxis: 0
@@ -4690,7 +4690,7 @@ MonoBehaviour:
   horizontal:
     useInput: 1
     isAxisInUse: 0
-    keyboard: HorizontalArrow
+    keyboard: Horizontal
     keyboardAxis: 0
     joystick: D-Pad Horizontal
     joystickAxis: 0
@@ -4704,7 +4704,7 @@ MonoBehaviour:
   vertical:
     useInput: 1
     isAxisInUse: 0
-    keyboard: VerticalArrow
+    keyboard: Vertical
     keyboardAxis: 0
     joystick: D-Pad Vertical
     joystickAxis: 0
@@ -4718,7 +4718,7 @@ MonoBehaviour:
   submit:
     useInput: 1
     isAxisInUse: 0
-    keyboard: Submit
+    keyboard: Mouse0
     keyboardAxis: 0
     joystick: A
     joystickAxis: 0

@@ -1,15 +1,87 @@
 {
-    "name": "TestInpu",
+    "name": "TestInput",
     "maps": [
         {
             "name": "Player",
             "id": "7a8ce7e8-c175-4781-8705-a50a1ade09da",
             "actions": [
                 {
-                    "name": "Test",
+                    "name": "Console",
                     "type": "Button",
                     "id": "12df9745-98e9-42eb-aa70-0d13efb01e48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Horizontal",
+                    "type": "Button",
+                    "id": "4cef7b9a-fcb5-4bf2-aee7-8feaf6dceb44",
                     "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Verticall",
+                    "type": "Button",
+                    "id": "3a8f5db7-b7e1-4c2f-abe3-28e14b6e1d82",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "a6569fb8-dd5a-4f0e-858e-4a9aee4e2fc9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Roll",
+                    "type": "Button",
+                    "id": "4eb138ec-41a9-4b45-a8c2-f5ca26323a8d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Crouch",
+                    "type": "Button",
+                    "id": "bc7a79b2-32f0-4976-875f-996f5df03353",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "256ee7b0-7e6a-4bc0-98cd-cf54e4447cb9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Strafe",
+                    "type": "Button",
+                    "id": "f3cbd5b5-4b7f-4e59-9aab-f1c05decfa5f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotateCameraX",
+                    "type": "PassThrough",
+                    "id": "cf02e443-07b8-441d-9298-61dfa9ce70b3",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotateCameraY",
+                    "type": "PassThrough",
+                    "id": "932190c0-4b17-4e10-ab07-efee993afd7c",
+                    "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": ""
                 }
@@ -18,16 +90,186 @@
                 {
                     "name": "",
                     "id": "b572546a-2757-471a-b1b1-4ab64ccf7581",
-                    "path": "<Keyboard>/b",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard;Mobile",
+                    "action": "Console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc6454a6-a4e7-4651-b90b-87f9a0d8db83",
+                    "path": "<DualShockGamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WS",
+                    "id": "e62e9cef-9f83-4ace-bc70-22188b734701",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Test",
+                    "action": "Horizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "88514a4a-cc8d-49da-8fff-6056f644e8a7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "16b59c76-d3e1-4062-967e-7f5fc12f1c5b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "AD",
+                    "id": "4f513dd2-8d2f-4586-ae58-13798d0e0d39",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Verticall",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "04aeaabe-a728-420f-9ea9-8c8e31dcba69",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Verticall",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "224df856-b92f-4cd1-a713-bb74f5803cc1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Verticall",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "23d390d9-95cb-46e4-a3f7-0714e19d2f24",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "00e308fc-1db9-4766-842d-2dec77cc0eea",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c70c0c1-38a4-446f-915e-7edd4918b526",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1cb17571-ad5a-4828-9554-c8f19dd12cda",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b13273ba-406f-4909-bdbb-7137c10b6011",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5028cf8f-60c4-4d0f-8487-530bffadc751",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "RotateCameraX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77ce723c-ba1f-4f08-a4eb-1f820f19620c",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyBoard",
+                    "action": "RotateCameraY",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "MouseKeyBoard",
+            "bindingGroup": "MouseKeyBoard",
+            "devices": []
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": []
+        },
+        {
+            "name": "Mobile",
+            "bindingGroup": "Mobile",
+            "devices": []
+        }
+    ]
 }
